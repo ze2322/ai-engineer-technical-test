@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Electro Pi AI Engineer Technical Test
 
 ## Overview
@@ -283,3 +284,7 @@ Bachelor of Computer Science (Artificial Intelligence)
 Arab Open University
 
 Cairo, Egypt
+=======
+# ai-engineer-technical-test
+Solution for the Electro Pi AI Engineer Technical Test.
+>>>>>>> 88e0a56097decf0c72519972cb988bdced646708
