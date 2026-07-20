@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Python cache
+.pytest_cache/
+
+# HuggingFace
+.cache/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Environment Variables
+.env
+
+# Git
+.git/
+
+# Logs
+*.log
+
+# Model cache
+*.bin
+*.safetensors
+
+# Torch cache
+torch_cache/

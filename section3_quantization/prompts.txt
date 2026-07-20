@@ -1,0 +1,9 @@
+What is Artificial Intelligence?
+
+Explain the difference between CNN and RNN.
+
+Write a Python function that reverses a string.
+
+Summarize Retrieval-Augmented Generation.
+
+Explain Docker in simple terms.

@@ -1,0 +1,11 @@
+.venv
+__pycache__
+*.pyc
+.git
+.gitignore
+.env
+.vscode
+.idea
+
+section2_rag/vector_db/
+section2_rag/documents/

@@ -1,0 +1,42 @@
+[
+    {
+        "prompt": "What is Artificial Intelligence?",
+        "answer": "What is Artificial Intelligence? (AI)\n\nArtificial intelligence (AI) refers to the ability of a computer or machine to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. AI uses algorithms and statistical models to analyze large amounts of data and make predictions or decisions based on patterns in that data.\n\nThere are several types of artificial intelligence, including:\n\n  • Narrow or weak AI: Also known as \"conversational\" or \"rule-based\" AI, this type",
+        "latency_seconds": 23.022,
+        "generated_tokens": 100,
+        "tokens_per_second": 4.34,
+        "vram_gb": 0
+    },
+    {
+        "prompt": "Explain the difference between CNN and RNN.",
+        "answer": "Explain the difference between CNN and RNN. CNN (Convolutional Neural Networks) are used for image processing tasks, where they can detect features in images such as edges or corners by applying a series of filters to the input data. On the other hand, RNNs (Recurrent Neural Networks) are designed for sequential data like text or speech, where they maintain a state variable that allows them to remember previous inputs and make predictions based on those inputs. They are particularly useful when dealing with sequences of time-dependent data. In summary, CNN",
+        "latency_seconds": 34.965,
+        "generated_tokens": 100,
+        "tokens_per_second": 2.86,
+        "vram_gb": 0
+    },
+    {
+        "prompt": "Write a Python function that reverses a string.",
+        "answer": "Write a Python function that reverses a string. The function should take a single argument, which is the string to be reversed. Your code should pass the following test case:\n```python\ns = \"hello world\"\nassert reverse_string(s) == \"dlrow olleh\"\n```\n\n```python\ndef reverse_string(s):\n    \"\"\"\n    This function takes a string and returns its reverse.\n    \n    Args:\n        s (str): The input string to be reversed.\n        \n    Returns:\n        str: The reversed version of the input string.\n",
+        "latency_seconds": 27.789,
+        "generated_tokens": 100,
+        "tokens_per_second": 3.6,
+        "vram_gb": 0
+    },
+    {
+        "prompt": "Summarize Retrieval-Augmented Generation.",
+        "answer": "Summarize Retrieval-Augmented Generation. Retrieval-Augmented Generation (RAG) is a method that combines two types of models: a knowledge base and a generative model to generate text.\nThe knowledge base contains large amounts of information, while the generative model can create new content based on this knowledge. RAG leverages these two models by first using the knowledge base to retrieve relevant pieces of information from its database, which are then used as input for the generative model to produce an output text.\n\nIn summary, RAG enables",
+        "latency_seconds": 25.537,
+        "generated_tokens": 100,
+        "tokens_per_second": 3.92,
+        "vram_gb": 0
+    },
+    {
+        "prompt": "Explain Docker in simple terms.",
+        "answer": "Explain Docker in simple terms. Docker is a platform that allows you to create, deploy, and run applications as containers.\nContainers are lightweight, portable, and isolated environments that contain all the necessary software components for an application to run smoothly. They can be easily moved between different systems or even between different operating systems, making it easier to manage and scale your applications.\nDocker provides a set of tools and APIs that make it easy to build, test, and deploy applications in a consistent and repeatable way. It also enables developers to",
+        "latency_seconds": 33.691,
+        "generated_tokens": 100,
+        "tokens_per_second": 2.97,
+        "vram_gb": 0
+    }
+]
