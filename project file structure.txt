@@ -1,0 +1,46 @@
+electro-pi-ai-test/
+│
+├── shared/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── logger.py
+│   └── utils.py
+│
+├── section1_livekit/
+├── main.py
+├── agent.py
+├── llm.py
+├── config.py
+│
+├── section2_rag/
+│   ├── documents/
+│   ├── vector_db/
+│   ├── app.py
+│   ├── loader.py
+│   ├── chunker.py
+│   ├── embeddings.py
+│   ├── vectorstore.py
+│   ├── rag_chain.py
+│   └── prompts.py
+│
+├── section3_quantization/
+├── benchmark.py
+├── fp16.py
+├── quantized.py
+├── compare.py
+├── prompts.txt
+├── output/
+│   ├── fp16_results.json
+│
+│
+├── section4_deployment/
+├── api.py
+├── ollama_service.py
+├── models.py
+├── load_test.py
+│
+├── requirements.txt
+├── .env
+├── Dockerfile
+├── README.md
+└── .gitignore
