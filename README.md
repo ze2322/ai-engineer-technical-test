@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Electro Pi AI Engineer Technical Test
 
 ## Overview
@@ -62,7 +61,7 @@ The implementation focuses on clean, modular, and maintainable code while using 
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ze2322/ai-engineer-technical-test.git
 
 cd electro-pi-ai-test
 ```
@@ -230,7 +229,7 @@ http://localhost:8000/docs
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| GET | `/` | API Health Check |
+| GET | `/` | API Check |
 | POST | `/generate` | Generate Response |
 | POST | `/stream` | Streaming Response |
 
@@ -256,35 +255,9 @@ Full concurrent load testing (e.g., Locust, k6, or ApacheBench) was not performe
 
 ---
 
-# Known Limitations
+# Work Not Completed
 
 - STT and TTS are stubbed due to the absence of a compatible local provider in the current environment.
 - GPU-based 4-bit benchmarking could not be executed because CUDA hardware was unavailable.
 - Benchmark results were collected on CPU and therefore do not represent GPU inference performance.
 - Full concurrent load testing was not performed.
-
----
-
-# Future Improvements
-
-- Integrate a fully local STT pipeline.
-- Integrate a local TTS engine.
-- Run 4-bit GPU benchmarking on CUDA hardware.
-- Add automated performance benchmarking.
-- Add authentication and production-ready API deployment.
-
----
-
-# Author
-
-**Ziad Ayman**
-
-Bachelor of Computer Science (Artificial Intelligence)
-
-Arab Open University
-
-Cairo, Egypt
-=======
-# ai-engineer-technical-test
-Solution for the Electro Pi AI Engineer Technical Test.
->>>>>>> 88e0a56097decf0c72519972cb988bdced646708
