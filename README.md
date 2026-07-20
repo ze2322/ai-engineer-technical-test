@@ -1,5 +1,11 @@
 # Electro Pi AI Engineer Technical Test
 
+# NOTE: Work Not Completed
+- STT and TTS are stubbed due to the absence of a compatible local provider in the current environment.
+- GPU-based 4-bit benchmarking could not be executed because CUDA hardware was unavailable.
+- Benchmark results were collected on CPU and therefore do not represent GPU inference performance.
+- Full concurrent load testing was not performed.
+
 ## Overview
 
 This repository contains my solution for the **Electro Pi AI Engineer Technical Test**.
@@ -254,10 +260,3 @@ Full concurrent load testing (e.g., Locust, k6, or ApacheBench) was not performe
 - CUDA-enabled GPU hardware was not available during development.
 
 ---
-
-# Work Not Completed
-
-- STT and TTS are stubbed due to the absence of a compatible local provider in the current environment.
-- GPU-based 4-bit benchmarking could not be executed because CUDA hardware was unavailable.
-- Benchmark results were collected on CPU and therefore do not represent GPU inference performance.
-- Full concurrent load testing was not performed.
